@@ -8,6 +8,8 @@
     #define FMDBAutorelease(__v) ([__v autorelease]);
     #define FMDBReturnAutoreleased FMDBAutorelease
 
+
+
     #define FMDBRetain(__v) ([__v retain]);
     #define FMDBReturnRetained FMDBRetain
 

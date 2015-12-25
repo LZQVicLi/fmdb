@@ -11,6 +11,7 @@
 @synthesize query=_query;
 @synthesize statement=_statement;
 
+
 + (instancetype)resultSetWithStatement:(FMStatement *)statement usingParentDatabase:(FMDatabase*)aDB {
     
     FMResultSet *rs = [[FMResultSet alloc] init];
